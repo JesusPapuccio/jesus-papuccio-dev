@@ -1,9 +1,10 @@
 
 ¨*{
-    
+    <<<<<< bb921bd
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
+
 
 
 main{
@@ -38,7 +39,7 @@ main{
         -webkit-text-fill-color: transparent;
         font-size: 40px;
         
-}
+}<<<<<<< bb921bd
 .form-title{
     background: -webkit-linear-gradient(#ffffff,#b73dd5);
     background-clip: text;
@@ -47,6 +48,7 @@ main{
 }
 .form-contact{
     width: 50%;
+
     margin-left: 20px;
     
 }
