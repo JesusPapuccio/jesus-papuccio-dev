@@ -1,15 +1,20 @@
 
-.header{
-    
-    background: rgb(74, 93, 93)
+¨*{
+    <<<<<< bb921bd
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+
+main{
+    background-color:#19262e;
 }
-
-
     /* -----  NAV BAR  ----*/
 
-    
 
-.header .nav .logo{
+
+.header .navbar .logo{
     font-size: 20px;
     
         background: -webkit-linear-gradient(#E5DAE8,#D21FFF);
@@ -19,45 +24,46 @@
         padding-left: 10px;
         line-height: 50px;
 }
-.nav-menu-item, .nav-menu-link{
-    list-style: none;
-    color: #E5DAE8;
-    border-radius: 3px;
-    padding: 5px 5px;
-    margin: 2px;
-    display: inline-block;
-}
-.nav-menu-link:hover{
-color: #b5d8cc;
-background-color: #846a8a;
-transition: 0.5s;
-
-}
-
-.nav a{
-    text-decoration: none;
-    
-}
 
 
-.container-fluid{
-    background: #e0dfdb;
+
+
+/*----NAVBAR END----*/
+
+
+
+.span-intro{
+    background: -webkit-linear-gradient(#ffffff,#b73dd5);
+    background-clip: text;
+    -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 40px;
+        
+}<<<<<<< bb921bd
+.form-title{
+    background: -webkit-linear-gradient(#ffffff,#b73dd5);
+    background-clip: text;
+    -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
 }
-.introduccion{
-    background-color: #b5d8cc;
-    padding: 15px;
-    border: 5px solid  #86239d;
-    border-radius: 10px;
-    
-    margin-top: 20px;
+.form-contact{
+    width: 50%;
+
     margin-left: 20px;
-}
-.ilustracion{
-    margin-top: 20px;
-}
-.portfolio-1{
-    border: 5px #846a8a solid ;
-    background-color: #b5d8cc;
     
 }
+.form-text{
+    color: #ffffff;
+    font-size: 20px;
+}
+.portfolio-text{
+    background: -webkit-linear-gradient(#ffffff,#b73dd5);
+    background-clip: text;
+    -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 50px;
+}
+
+
+
 
