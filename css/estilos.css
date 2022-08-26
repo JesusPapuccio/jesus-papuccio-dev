@@ -1,14 +1,20 @@
 
 ¨*{
-    <<<<<< bb921bd
+    
     margin: 0;
+
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+    
 
 
 
 
-main{
+
+body{
     background-color:#19262e;
+    font-family: sans-serif;
 }
     /* -----  NAV BAR  ----*/
 
@@ -25,6 +31,12 @@ main{
         line-height: 50px;
 }
 
+.nav-item:hover{
+    transition: 0,5s;
+    
+    background-color: #283238;
+}
+
 
 
 
@@ -39,7 +51,49 @@ main{
         -webkit-text-fill-color: transparent;
         font-size: 40px;
         
-}<<<<<<< bb921bd
+
+}
+
+            /* PAGINA PRINCIPAL */
+
+            .portfolio{
+                background: -webkit-linear-gradient(#ffffff,#b73dd5);
+                background-clip: text;
+                -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    margin-bottom: 50px;
+            }
+        
+            .portfolio-text{
+                font-size: 45px;
+                
+            }
+
+            .card{
+                margin-left: 20px;
+                margin-right: 20px;
+                background: -webkit-linear-gradient(#99869e,#571069);
+                color: #E5DAE8;
+            }
+            
+            /* FIN PAGINA PRINCIPAL */
+
+
+
+
+            /* PAGINA CONTACTO */
+
+
+
+.contact-form{
+    width: 40%;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 20px;
+    background-color:#283238;
+    border: 3px  solid #E5DAE8;
+}
 .form-title{
     background: -webkit-linear-gradient(#ffffff,#b73dd5);
     background-clip: text;
@@ -50,19 +104,43 @@ main{
     width: 50%;
 
     margin-left: 20px;
+
     
 }
+
 .form-text{
-    color: #ffffff;
-    font-size: 20px;
-}
-.portfolio-text{
-    background: -webkit-linear-gradient(#ffffff,#b73dd5);
-    background-clip: text;
-    -webkit-background-clip: text;
+    background: -webkit-linear-gradient(#E5DAE8,#D21FFF);
+        background-clip: text;
+        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-size: 50px;
+        font-size: 20px;
+        margin-bottom: 30px;
 }
+.text-area{
+    margin-top: 20px;
+    
+}
+textarea{
+    resize: none;
+}
+.button-send{
+    width: 50%;
+    color: #b73dd5;
+    margin-top: 30px;
+}
+
+.maps{
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 0;
+}
+
+
+
+            /* FIN PAGINA CONTACTO */
+
+
+
 
 
 
