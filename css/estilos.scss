@@ -1,21 +1,28 @@
 *{
-    
+    padding: 0;
     margin: 0;
-
+    box-sizing: border-box;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
-    
+
+
+@mixin transformar($propiedad){
+    -webkit-transform: $propiedad;
+    -ms-transform: $propiedad;
+    transform: $propiedad;
+}
 
 
 $colortext: #e2e6f3;
 
+$Gradient:-webkit-linear-gradient(#ffffff,#b73dd5);
 
 
 
 body{
     background-color:#19262e;
-    font-family: sans-serif;
+    
 }
     /* -----  NAV BAR  ----*/
 
@@ -32,9 +39,8 @@ body{
         line-height: 50px;
 }
 .logo:hover{
-    transform: scale(2, 0.5);
+    @include transformar (scale(2, 0.5));
     transition: 2s;
-    
 }
 .nav-item:hover{
     transition: 0,5s;
@@ -52,19 +58,22 @@ body{
 
 
             /* PAGINA PRINCIPAL */
-            
+            .introduccion{
+                background-color: #303e47;
+                border-radius: 35px;
+            }
             .span-intro{
-                background: -webkit-linear-gradient(#ffffff,#b73dd5);
+                background: $Gradient;
                 background-clip: text;
                 -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
-                    font-size: 40px;
-                    
-            
+                -webkit-text-fill-color: transparent;
+                font-size: 40px;
+                padding: 10px;
+                
             }
 
             .portfolio{
-                background: -webkit-linear-gradient(#ffffff,#b73dd5);
+                background: $Gradient;
                 background-clip: text;
                 -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
@@ -81,11 +90,14 @@ body{
             .card{
                 margin-left: 20px;
                 margin-right: 20px;
-                background: -webkit-linear-gradient(#99869e,#571069);
+                background: $Gradient;
                 color: #E5DAE8;
                 
             }
+            /*INICIO FOOTER*/
             
+            /*FIN FOOTER*/
+
             /* FIN PAGINA PRINCIPAL */
 
 
@@ -104,7 +116,7 @@ body{
     border: 3px  solid #E5DAE8;
 }
 .form-title{
-    background: -webkit-linear-gradient(#ffffff,#b73dd5);
+    background:$Gradient;
     background-clip: text;
     -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -118,7 +130,7 @@ body{
 }
 
 .form-text{
-    background: -webkit-linear-gradient(#E5DAE8,#D21FFF);
+    background: $Gradient;
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -141,7 +153,8 @@ textarea{
 .maps{
     margin-left: 30px;
     margin-top: 20px;
-    padding: 0;
+    
+    
 }
 
 
@@ -163,10 +176,10 @@ textarea{
                     }
                 }
             span a:hover{
-                background:-webkit-linear-gradient(#E5DAE8,#D21FFF);
+                background:$Gradient;
                 background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
             }
             section{
                 .code{
